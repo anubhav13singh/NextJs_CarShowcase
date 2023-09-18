@@ -11,7 +11,7 @@ import CarDetails from "./CarDetails";
 interface CarCardProps {
   car: CarProps;
 }
-
+//Rembember how to pass typescript
 const CarCard = ({ car }: CarCardProps) => {
   const { city_mpg, year, make, model, transmission, drive } = car;
 

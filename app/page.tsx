@@ -1,3 +1,4 @@
+"use client"
 import { fetchCars } from "@utils";
 import { HomeProps } from "@types";
 import { fuels, yearsOfProduction } from "@constants";
@@ -13,7 +14,7 @@ export default async function Home({ searchParams }: HomeProps) {
   });
 // console.log(allCars);
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
-
+// CHECKS THE DATA IS NOT EMPTY
   return (
     <main className='overflow-hidden'>
       <Hero />

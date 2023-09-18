@@ -30,7 +30,7 @@ const SearchBar = () => {
     if (manufacturer.trim() === "" && model.trim() === "") {
       return alert("Please provide some input");
     }
-
+// calling a fun declared below
     updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
   };
 

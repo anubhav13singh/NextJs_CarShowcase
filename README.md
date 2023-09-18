@@ -14,7 +14,20 @@ In this project i have learned
 
 ##code Flow-
 everything got imported in index.ts in components and then exported to each file 
-<Hero>
-<CustomButton>
-<NavBar><Footer> called in layout.js
-<Homepage>
+### Hero.tsx
+### CustomButton.tsx
+### NavBar.tsx,
+### Footer.tsx ->called in layout.js,
+### page.tsx -> car cateloue,
+### {SearchBar.tsx{SearchManufacturer.tsx - by headless ui}
+fetching data in page.tsx
+### CarCrd.tsx
+### cardDetails.tsx- by headless ui
+### search button in searchbar.tsx
+### CustomFilter.tsx}
+### showmore btn
+
+
+##### read more about updateSearchParams and research how to get the pathname while applying filteration 
+
+got some error in scroll so done in react way
